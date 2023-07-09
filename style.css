@@ -122,3 +122,42 @@ header{
     font-weight: normal;
     line-height: 35px;
 }
+
+/* what i do section starts here  */
+
+.what-i-do-container{
+    margin: 130px 230px;
+    text-align: center;
+
+}
+.what-i-do-description{
+    max-width: 80%;
+    margin:0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.what-i-do-card{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.what-i-do-card .card {    
+    gap: 20px;
+    background: #fff;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+.what-i-do-card .card .card-icon {
+    margin-bottom: 30px;
+    width: 44px;
+    height: 44px;
+}
+.what-i-do-card .card .card-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 20px;
+}
