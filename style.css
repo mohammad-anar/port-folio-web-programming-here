@@ -53,6 +53,7 @@ header{
     background-color: #FD6E0A;
     border: 0;
     border-radius: 5px;
+    cursor: pointer;
 
 }
 
@@ -210,4 +211,71 @@ header{
 
 .resume-button{
     margin-top: 50px;
+}
+
+/* footer section start here  */
+footer{
+    background: #FFF8F3;
+}
+
+.footer-container{
+    display: flex; 
+    column-gap: 20px;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 130px 230px;
+}
+
+.footer-left-heading,
+ .footer-right-heading {
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.footer-left-description{
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.socia-links {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.socia-links img {
+    font-size: 24px;
+}
+
+
+.footer-right{
+    flex-basis: 40%;
+}
+
+.footer-form{
+    width: 100%;
+}
+
+#footer-form > input[type="text"], input[type="email"], textarea {
+    display: block;
+    width: 100%;
+    outline: none;
+    border: 0;
+    margin-bottom: 24px;
+    padding: 18px 0 18px 30px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+#footer-form > input[type="text"], input[type="email"] {
+    height: 64px;
+
+}
+
+#footer-form textarea {
+    resize: none;
+    height: 180px;
 }
